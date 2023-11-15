@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Imagenes/col.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color: white;
+	color: black;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{ 
+	color: white;
+	font-size: 60px;
+}
+.button{
+	position: absolute;
+	top: 62%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
+/* Todo El Codigo Del Footer */
+footer{
+	width: 100%;
+	background: #202020;
+	color: white;
+	
+}
+.container-footer-all{
+	width: 100%;
+	max-width: 1200px;
+	margin-left: 10px;
+	padding: 40px;
+}
+.container-body{
+	display: flex;
+	justify-content: space-between;
+}
+.colum1{
+	max-width: 400px;
+}
+.colum1 h1{
+	font-size: 22px;
+}
+.colum1 p{
+	font-size: 14px;
+	color: #C7C7C7;
+	margin-top: 20px;
+}
+.colum2{
+	max-width: 400px;
+}
+.colum2 h1{
+	font-size: 22px;
+}
+.row{
+	margin-top: 20px;
+	display: flex;
+}
+.row img{
+	width: 36px;
+	height: 36px;
+}
+.row label{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #C7C7C7;
+}
+.colum3{
+	max-width: 400px;
+}
+.colum3 h1{
+	font-size: 22px;
+}
+.row2{
+	margin-top: 20px;
+	display: flex;
+}
+.row2 img{
+	width: 36px;
+	height: 36px;
+}
+.row2 label{
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 140px;
+
+}
+.container-footer{
+	width: 100%;
+	background: #101010;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.copyright{
+	color: #C7C7C7;
+}
+.copyright a{
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+}
+.information a{
+	text-decoration: none;
+	color:#C7C7C7;
+}
+.gene{
+	padding: 200px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	margin-left: 80px;
+}
+/*  Formularios De ... */
+.contenedor{
+
+	background: url(../Imagenes/pc.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 950px;
+}
+.contenedor .form .form-header .form-title {
+	font-weight: normal;
+	font-family: sans-serif;
+	color: #FF851B;
+	text-align: center;
+	padding: 30px 0;
+}
+.contenedor .form .form-header .form-title span{
+	color: white;
+}
+.contenedor .form{
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	max-width: 950px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 0px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+.contenedor .form .form-label{
+	display: block;
+	color: #FF851B;
+	font-size: 16px;
+	position: relative;
+}
+.contenedor .form .form-input{
+	background: rgba(0,0,0,.7);
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #FF851B;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 14px;
+	color: white;
+}
+.contenedor .form{
+	resize: vertical;
+}
+.contenedor .form .btn-submit{
+	width: 24.5%;
+	outline: none;
+	background: #FF851B;
+	font-size: 16px;
+	border: none;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.contenedor .form .btn-submit:hover {
+	background: #F29718;
+}
+/*  Estilos Para Los Buttons Con Funciones Externas  */
+
+.btn-ghost {
+	position: relative;
+	display: inline-block;
+	border: 2px solid white;
+	padding: 10px 40px;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: white;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 100px;
+	margin: 9px 4px;
+}
+.btn-ghost:hover {
+	color: white;
+	background-color: transparent;
+	border-radius: 100px;
+}
+.btn-ghost:active{
+	box-shadow: inset 0 0 20px white;
+}
+.btn-ghosttwo {
+	position: relative;
+	display: inline-block;
+	border: 2px solid black;
+	padding: 10px 40px;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: black;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 100px;
+	margin: 9px 4px;
+}
+.btn-ghosttwo:hover {
+	color: white;
+	background-color: transparent;
+	border-radius: 100px;
+}
+.btn-ghosttwo:active{
+	box-shadow: inset 0 0 20px white;
+}
+.btn-ghosttree {
+	position: relative;
+	display: inline-block;
+	border: 2px solid orange;
+	padding: 10px 40px;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: orange;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 100px;
+	margin: 9px 4px;
+}
+.btn-ghosttree:hover {
+	color: white;
+	background-color: transparent;
+	border-radius: 100px;
+}
+.btn-ghosttree:active{
+	box-shadow: inset 0 0 20px white;
+}
+.btn-ghostfour {
+	position: relative;
+	display: inline-block;
+	border: 2px solid yellow;
+	padding: 10px 40px;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: yellow;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 100px;
+	margin: 9px 4px;
+}
+.btn-ghostfour:hover {
+	color: white;
+	background-color: transparent;
+	border-radius: 100px;
+}
+.btn-ghostfour:active{
+	box-shadow: inset 0 0 20px white;
+}
+.btn-ghostfive {
+	position: relative;
+	display: inline-block;
+	border: 2px solid red;
+	padding: 10px 40px;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: red;
+	transition: color 0.5s, background 0.5s;
+	border-radius: 100px;
+	margin: 9px 4px;
+}
+.btn-ghostfive:hover {
+	color: white;
+	background-color: transparent;
+	border-radius: 100px;
+}
+.btn-ghostfive:active{
+	box-shadow: inset 0 0 20px white;
+}
+/*  Estilos Del formulario  */
+.nav {
+	background-color:#d8d6d6;
+	color:#0D0C0A;
+	opacity:unset;
+	border-style:groove;
+	margin-left: 2%;
+}
+.kill{
+	padding: 70px;
+	display: block;
+}
